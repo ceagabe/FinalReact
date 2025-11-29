@@ -27,7 +27,7 @@ export default function IniciarSesion() {
     ) {
   // Guarda el email ingresado y pasa nombre para el token user
   localStorage.setItem("authEmail", formulario.email);
-  iniciarSesion(formulario.nombre);
+  iniciarSesion(formulario.nombre, formulario.email);
 
       // Si venía del carrito, redirige a pagar
       if (ubicacion.state?.carrito) {

@@ -21,7 +21,7 @@ export function AuthProvider({ children }) {
   }, []);
 
   // Función para iniciar sesión
-  const iniciarSesion = (username) => {
+  const iniciarSesion = (username, emailIngresado) => {
     const token = `fake-token-${username}`;
     localStorage.setItem("authToken", token);
 
