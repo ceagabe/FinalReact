@@ -43,7 +43,7 @@ export default function Productos() {
     updateMetaTag('og:url', window.location.href, 'property');
   }, []);
 
-  const productosPorPagina = 6;
+  const productosPorPagina = 3;  //Cantidad de tarjeta por pagina//
 
 
   const manejarEliminar = (producto) => {

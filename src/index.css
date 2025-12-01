@@ -49,8 +49,10 @@ nav a:hover {
 }
 
 footer {
-  background-color: lightgrey;
+  background-color: rgb(188, 199, 212);
   text-align: center;
+  
+
 }
 
 main {

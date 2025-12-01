@@ -5,6 +5,7 @@ import { useAuthContext } from "../context/AuthContext";
 function RutaProtegida({ children, soloAdmin = false }) {
   const { usuario, cargando } = useAuthContext();
   const location = useLocation();
+  
 
   if (cargando) {
     return <div>Cargando...</div>;
