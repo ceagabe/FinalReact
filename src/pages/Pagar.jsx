@@ -72,7 +72,7 @@ export default function Pagar() {
               );
             })}
             <hr />
-            <h3 className="fs-4 fw-bold text-dark bg-light rounded-4 p-3 shadow-sm">Total a pagar: ${Number(total).toFixed(3)}</h3>
+            <h3 className="fs-4 fw-bold text-dark bg-light rounded-4 p-3 shadow-sm">Total a pagar: ${Number(total).toFixed(2)}</h3>
           </>
 
 
