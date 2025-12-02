@@ -21,7 +21,7 @@ export default function CarritoCompras() {
         <>
           {carrito.map((item) => (
             <div key={item.id}>
-                {item.nombre} - ${Number(item.precio).toFixed(3)}
+                {item.nombre} - ${Number(item.precio).toFixed(2)}
                 (Cantidad: {item.cantidad || 1})
                 <button onClick={() => quitarCantidad(item.id)}>-</button>
                  <button onClick={() => agregarCantidad(item.id)}>+</button>
@@ -29,7 +29,7 @@ export default function CarritoCompras() {
           ))}
           <div>
             <hr />
-            Total: ${Number(total).toFixed(3)}
+            Total: ${Number(total).toFixed(2)}
           </div>
           <button onClick={vaciarCarrito}>Vaciar Carrito</button>
           <button onClick={irAPagar}>Pagar</button>
