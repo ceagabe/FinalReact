@@ -5,7 +5,7 @@ import { useCartContext } from '../context/CartContext';
 
 export default function Pagar() {
   const { usuario, cerrarSesion } = useAuthContext();
-  const { carrito, total, vaciarCarrito } = useCartContext();
+  const { carrito, total, vaciarCarrito,agregarCantidad, quitarCantidad } = useCartContext();
   const navigate = useNavigate();
 
 
@@ -60,9 +60,13 @@ export default function Pagar() {
  />
                   <div>
                     <div className="fs-5 fw-bold text-success">{producto.nombre}</div>
-                    <div>Precio unidad: ${Number(precioUnitario).toFixed(3)}</div>
+                    <div>Precio unidad: ${Number(precioUnitario).toFixed(2)}</div>
                     <div className="border-bottom">Cantidad: {cantidad}</div>
-                    <div className="mb-4"><strong>Subtotal: ${Number(subtotal).toFixed(3)}</strong></div>
+                    <br/>
+                      <button onClick={() => quitarCantidad(producto.id)}>-</button>
+                      <button onClick={() => agregarCantidad(producto.id)}>+</button>
+
+                    <div className="mb-4"><strong>Subtotal: ${Number(subtotal).toFixed(2)}</strong></div>
                   </div>
                 </div>
               );
