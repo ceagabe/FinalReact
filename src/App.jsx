@@ -22,7 +22,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; 
 
-
+import Contacto from "./pages/Contacto";
 
 function App() {
   return (
@@ -37,6 +37,7 @@ function App() {
               <Route path="/" element={<Inicio />} />
               <Route path="/servicios" element={<Servicios />} />
               <Route path="/productos" element={<Productos />} />
+              <Route path="/contacto" element={<Contacto />} />
               <Route path="/productos/:id" element={<ProductoDetalle />} />
               <Route path="/productos/:categoria/:id" element={<ProductoDetalle />} />
               <Route path="/iniciar-sesion" element={<IniciarSesion />} />
