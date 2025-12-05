@@ -5,7 +5,7 @@ function Servicios() {
   return (
     <>
     <div style={{textAlign: 'center'}}>
-        <h1>Servicios</h1>
+        <h2>Servicios</h2>
             <hr />
     <div style={{ width: '85%', margin: '0 auto' }}>
         

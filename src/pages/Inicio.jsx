@@ -4,8 +4,8 @@ function Inicio() {
   return (
     <>
     <div style={{textAlign: 'center'}}>
-          <h1> Bienvenidos !!!</h1>
-      <h2>Misión</h2>
+          <h2> Bienvenidos !!!</h2>
+      <h3>Misión</h3>
    <div id="inicio">
   
    <p>Somos un grupo de empresas rentable e innovador que comercializa autos y motos nuevos, semi-nuevos, servicio mecánico, laminado y pintura, refacciones, accesorios*, servicios financieros y seguros a clientes particulares, empresas e instituciones, así como desarrollos inmobiliarios*. Trabajamos con marcas que ofrecen productos y servicios de reconocida calidad, confiabilidad y seguridad. El Cliente es la prioridad de nuestra organización y le brindamos asesoría integral de nuestros productos y servicios, así como herramientas financieras que se adaptan a las necesidades particulares.</p> 

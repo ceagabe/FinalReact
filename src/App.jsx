@@ -3,6 +3,7 @@ import Inicio from "./pages/Inicio";
 import Servicios from "./pages/Servicios";
 import Navbar from "./pages/Navbar";
 import Productos from "./pages/Productos";
+import Contacto from "./pages/Contacto";
 import ProductoDetalle from "./pages/DetalleProdutos";
 import Pagar from "./pages/Pagar";
 import RutaProtegida from "./pages/RutaProtegida";
@@ -22,7 +23,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; 
 
-import Contacto from "./pages/Contacto";
+
 
 function App() {
   return (

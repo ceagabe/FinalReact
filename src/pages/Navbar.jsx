@@ -49,6 +49,9 @@ function Navbar() {
               <li className="nav-item">
                 <NavLink to="/productos" className="nav-link">Productos</NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/contacto" className="nav-link">Contactos</NavLink>
+              </li>
               {usuario?.nombre === "admin" && (
                 <li className="nav-item">
                   <NavLink to="/formulario-producto" className="nav-link">Agregar Producto</NavLink>
