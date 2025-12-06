@@ -7,7 +7,7 @@ function Footer() {
     <footer>
       <>
         <hr />
-        <p>Desarrolado por:  @ Gabriel Benedetti </p>
+        <p>Desarrolado por:  @Gabriel Benedetti </p>
     
         <h5>GABE Autos</h5>
         <p  >📍 Av. Principal 1234, Ciudad Autonoma de Buenos Aires</p>

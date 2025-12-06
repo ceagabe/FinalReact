@@ -44,7 +44,7 @@ export default function IniciarSesion() {
 
   return (
     <div>
-      <h1>Inicia sesión para continuar</h1>
+      <h3>Inicia sesión para continuar</h3>
       <form onSubmit={manejarEnvio}>
         <input
           type="text"
