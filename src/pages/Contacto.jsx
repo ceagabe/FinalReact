@@ -23,13 +23,16 @@ function Contacto(){
                     <div id="contador" class="form-text text-muted text-end">0 / 200 caracteres</div>
                     </div>
                 <button type="submit" class="sc-jJLAfE jmXToI btn btn-primary flex-grow-1" fdprocessedid="co7ji6">Enviar</button>
-             
+                <br />
+                <br />
+             <Link to= "/"> <button  class="sc-jJLAfE jmXToI btn btn-success flex-grow-1"> Inicio </button>  </Link>
             </form >
         
            
         </div>
-        </div>
         
+        </div>
+    
    </>
   );
    
