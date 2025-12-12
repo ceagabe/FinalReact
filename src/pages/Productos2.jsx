@@ -30,7 +30,7 @@ export default function Productos() {
     };
 
     // Meta tags básicos
-    updateMetaTag('description', 'Explora el catálogo de juegos de mesa. Encuentra juegos históricos, clásicos, modernos y educativos.');
+    updateMetaTag('description', 'GABE Autos');
     updateMetaTag('keywords', 'juegos de mesa, juegos históricos, juegos clásicos, juegos modernos, juegos educativos');
     updateMetaTag('author', '@webmaster');
     updateMetaTag('robots', 'index, follow');
