@@ -15,7 +15,7 @@ export default function Productos() {
   const [paginaActual, setPaginaActual] = useState(1);
 
     useEffect(() => {
-    document.title = "Tienda de Juegos de Mesa | Productos";
+    document.title = "Concesionaria | Venta y alquiler de Autos";
    
     // Función para actualizar meta tags
     const updateMetaTag = (name, content, attribute = 'name') => {
@@ -43,7 +43,7 @@ export default function Productos() {
     updateMetaTag('og:url', window.location.href, 'property');
   }, []);
 
-  const productosPorPagina = 6;
+  const productosPorPagina = 3;
 
 
   const manejarEliminar = (producto) => {
