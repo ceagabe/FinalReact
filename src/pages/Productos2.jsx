@@ -31,15 +31,15 @@ export default function Productos() {
 
     // Meta tags básicos
     updateMetaTag('description', 'GABE Autos');
-    updateMetaTag('keywords', 'juegos de mesa, juegos históricos, juegos clásicos, juegos modernos, juegos educativos');
+    updateMetaTag('keywords', 'autos, concesionaria, autos hibridos, autos convencionales, autos nafta');
     updateMetaTag('author', '@webmaster');
     updateMetaTag('robots', 'index, follow');
 
     // Open Graph
-    updateMetaTag('og:title', 'Tienda de Juegos de Mesa', 'property');
+    updateMetaTag('og:title', 'Concesionaria | Venta y alquiler de Autos', 'property');
     updateMetaTag('og:description', 'Explora el catálogo de juegos de mesa.', 'property');
     updateMetaTag('og:type', 'website', 'property');
-    updateMetaTag('og:image', 'https://tudominio.com/logo.jpg', 'property');
+    updateMetaTag('og:image', 'https://final-react-5cdw.vercel.app/logo.jpg', 'property');
     updateMetaTag('og:url', window.location.href, 'property');
   }, []);
 
